@@ -1,0 +1,154 @@
+:root {
+    --primary-custom: oklch(62.3% 0.214 259.815);
+
+    --c1: oklch(0.13 0.03 261.7);
+    --c2: #0f141e;
+    --c3: oklch(0.24 0.02 266.25);
+}
+
+body {
+    background: var(--c1) !important;
+}
+
+/*----------Loader----------*/
+#voyager-loader {
+    background: var(--c1) !important;
+}
+/*----------Loader End----------*/
+
+/*----------Body Background Container----------*/
+body > div.app-container.expanded.no-animation {
+    background: var(--c1) !important;
+}
+/*----------Body Background Container End----------*/
+
+/*----------Navbar----------*/
+body
+    > div.app-container.expanded.no-animation
+    > div.row.content-container
+    > nav {
+    background: var(--c1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+/*----------Navbar End----------*/
+
+/*----------Breadcrumb----------*/
+body
+    > div.app-container.expanded.no-animation
+    > div.row.content-container
+    > nav
+    > div
+    > div
+    > ol {
+    background: var(--c2) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+/*----------Breadcrumb End----------*/
+
+/*----------User Dropdown----------*/
+body
+    > div.app-container.expanded.no-animation
+    > div.row.content-container
+    > nav
+    > div
+    > ul
+    > li
+    > ul {
+    background: var(--c2) !important;
+}
+
+body
+    > div.app-container.expanded.no-animation
+    > div.row.content-container
+    > nav
+    > div
+    > ul
+    > li
+    > ul
+    > li.divider {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+/*----------User Dropdown End----------*/
+
+/*----------Sidebar----------*/
+body
+    > div.app-container.expanded.no-animation
+    > div.row.content-container
+    > div.side-menu.sidebar-inverse.ps {
+    background: var(--c1) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+/*----------Sidebar End----------*/
+
+/*----------Sidebar Dropdown----------*/
+#adminmenu > ul > li > a:hover {
+    background: var(--c2) !important;
+    border-left: 2px solid var(--primary-custom) !important;
+}
+
+#\35 -dropdown-element > div > ul > li > a:hover {
+    background: var(--c2) !important;
+    border-left: 2px solid var(--primary-custom) !important;
+}
+/*----------Sidebar Dropdown End----------*/
+
+/*----------Analytics Container----------*/
+body
+    > div.app-container.expanded.no-animation
+    > div.row.content-container
+    > div.container-fluid
+    > div
+    > div.page-content
+    > div.analytics-container
+    > p {
+    background: var(--c2) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #fff !important;
+}
+body
+    > div.app-container.expanded.no-animation
+    > div.row.content-container
+    > div.container-fluid
+    > div
+    > div.page-content
+    > div.analytics-container
+    > p
+    > code {
+    background: var(--c3) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+/*----------Analytics Container End----------*/
+
+/*----------Footer----------*/
+.app-footer {
+    background: var(--c1) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #fff !important;
+    opacity: 1 !important;
+}
+/*----------Footer End----------*/
+
+.panel-bordered {
+    background: var(--c2) !important;
+    color: #fff !important;
+}
+
+table {
+    background: var(--c2) !important;
+}
+
+thead {
+    background: var(--c2) !important;
+}
+
+tbody {
+    background: var(--c2) !important;
+}
+
+th {
+    background: var(--c2) !important;
+}
+
+td {
+    background: var(--c2) !important;
+}

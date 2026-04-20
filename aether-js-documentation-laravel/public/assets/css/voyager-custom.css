@@ -1,0 +1,342 @@
+:root {
+    --primary-custom: #22a7f0;
+    --c1: oklch(0.13 0.03 261.7);
+    --c2: #0f141e;
+}
+
+/*----------Navbar----------*/
+.navbar .dropdown-menu.dropdown-menu-animated {
+    border-radius: 30px !important;
+}
+
+.profile-body {
+    text-align: left;
+}
+/*----------Navbar End----------*/
+
+/*----------Sidebar----------*/
+.sidebar-inverse {
+    background: var(--c1) !important;
+}
+/*----------Sidebar End----------*/
+
+/*----------Sidebar Dropdown----------*/
+#adminmenu > ul > li > a:hover {
+    background: var(--c2) !important;
+    border-left: 2px solid var(--primary-custom) !important;
+}
+
+#\35 -dropdown-element > div > ul > li > a:hover {
+    background: var(--c2) !important;
+    border-left: 2px solid var(--primary-custom) !important;
+}
+/*----------Sidebar Dropdown End----------*/
+
+/*----------File Manager----------*/
+#filemanager {
+    border-radius: 30px !important;
+    overflow: hidden !important;
+}
+.file_link {
+    border-radius: 9999px !important;
+}
+/*----------File Manager End----------*/
+
+/*----------Button----------*/
+.btn-group {
+    display: flex !important;
+    gap: 5px !important;
+}
+
+.btn {
+    border-radius: 9999px !important;
+    transition: 0.3s ease all;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    text-align: center;
+}
+
+.btn:hover {
+    filter: brightness(80%);
+}
+
+.btn-danger {
+    background: #fa2a0027 !important;
+    border: 1px solid #fa2a007c !important;
+    color: #fa2a00 !important;
+}
+
+.btn-success {
+    background: #2ecc7028 !important;
+    border: 1px solid #2ecc707a !important;
+    color: #2ecc71 !important;
+}
+
+.btn-warning {
+    background: #f39d1225 !important;
+    border: 1px solid #f39d127e !important;
+    color: #f39c12 !important;
+}
+
+.btn-info {
+    background: #22a8f023 !important;
+    border: 1px solid #22a8f073 !important;
+    color: #22a7f0 !important;
+}
+
+.btn-primary {
+    background: #22a8f023 !important;
+    border: 1px solid #22a8f073 !important;
+    color: #22a7f0 !important;
+}
+
+.btn-primary.active {
+    background: #22a8f077 !important;
+    color: #fff !important;
+}
+/*----------Button End----------*/
+
+.panel {
+    border-radius: 30px !important;
+    overflow: hidden !important;
+}
+
+.panel.widget {
+    border-radius: 0px !important;
+}
+
+.form-control {
+    border-radius: 12px !important;
+}
+
+.dd-item,
+.dd-handle {
+    border-radius: 9999px !important;
+}
+
+.select2-selection,
+.select2 {
+    border-radius: 12px !important;
+}
+
+.dataTables_length > label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* ------------------------------------------------ */
+/* CUSTOM DASHBOARD WIDGET STYLES          */
+/* ------------------------------------------------ */
+
+.stat-card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding-top: 25px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    transition: 0.3s ease all;
+}
+
+.stat-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.stat-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.stat-icon {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.stat-label {
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-chart-wrapper {
+    position: relative;
+    height: 180px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.stat-chart-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+}
+
+.stat-total-val {
+    display: block;
+    font-size: 26px;
+    font-weight: 800;
+    color: #333;
+    line-height: 1;
+}
+
+.stat-total-lbl {
+    display: block;
+    font-size: 11px;
+    color: #999;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.stat-footer {
+    display: flex;
+    border-top: 1px solid #f1f1f1;
+}
+
+.stat-footer-item {
+    flex: 1;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.stat-footer-item.bordered-right {
+    border-right: 1px solid #f1f1f1;
+}
+
+.stat-val {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.stat-lbl {
+    display: block;
+    font-size: 12px;
+    color: #a0a0a0;
+    font-weight: 500;
+}
+
+.passive-color {
+    color: #d0d0d0;
+}
+
+/* -------------------------------------------------------------------------
+   CUSTOM IMAGE INPUT & PREVIEW STYLES
+   ------------------------------------------------------------------------- */
+
+/* Ana Kapsayıcı */
+.custom-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+/* --- 1. ÖNİZLEME ALANI (Preview) --- */
+.custom-preview-container {
+    position: relative; /* Silme butonu buna göre hizalanacak */
+    display: inline-block; /* İçerik kadar genişle */
+    width: fit-content;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.custom-preview-img {
+    display: block;
+    max-width: 200px; /* Maksimum genişlik */
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Silme Butonu (Kırmızı X) */
+.custom-delete-btn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff4757;
+    color: #fff !important; /* Voyager'ın default rengini ezmek için */
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px; /* Dikey ortalama */
+    font-size: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    z-index: 10;
+    transition: transform 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-delete-btn:hover {
+    transform: scale(1.1);
+    background-color: #ff6b81;
+}
+
+/* --- 2. DOSYA YÜKLEME ALANI (Input) --- */
+.custom-file-input-group {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.custom-real-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 5;
+}
+
+/* Görünen Tasarım */
+.custom-upload-design {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+    border: 1px dashed #ccc;
+    padding: 6px;
+    transition: all 0.3s ease;
+    border-radius: 9999px;
+}
+
+/* Inputa hover yapınca tasarım parlasın */
+.custom-file-input-group:hover .custom-upload-design {
+    background-color: #fff;
+    border-color: #22a7f0;
+}
+
+.custom-file-text {
+    color: #888;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 0.5rem;
+    text-overflow: ellipsis;
+}
+
+/***************************************************************************/
