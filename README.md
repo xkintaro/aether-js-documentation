@@ -1,6 +1,6 @@
 ## 📜 Documentation
 
-[https://xkintaro.github.io/aether-js-documentation/](https://xkintaro.github.io/aether-js-documentation/)
+[https://xkintaro.github.io/aether-js-documentation/](https://xkintaro.github.io/aether-js-documentation/en.html)
 
 ## 🔗 Main Repository
 
